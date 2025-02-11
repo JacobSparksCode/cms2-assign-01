@@ -67,6 +67,14 @@
 						}
 					]
 				}
+			],
+			"fontSizes": [
+				{
+					"slug": "tall",
+					"size": "1rem",
+					"name": "Tall",
+					"fluid": false
+				}
 			]
 		}
 	},
