@@ -19,12 +19,12 @@
 				},
 				{
 					"slug": "contrast",
-					"color": "#e7223a",
+					"color": "#6f1712",
 					"name": "Contrast"
 				},
 				{
 					"slug": "primary",
-					"color": "#6f1712",
+					"color": "#e7223a",
 					"name": "Primary"
 				},
 				{
