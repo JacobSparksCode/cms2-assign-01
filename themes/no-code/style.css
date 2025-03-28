@@ -15,3 +15,26 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Generated on fullsiteediting.com. No code version.
 */
+
+.product-archive {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-item {
+    width: 30%;
+    margin: 0.8rem;
+    border: 1px solid #ddd;
+    padding: 0.8rem;
+    text-align: center;
+}
+
+.product-item img {
+    width: 100%;
+    height: auto;
+}
+
+.product-price {
+    font-weight: bold;
+    color: #333;
+}
