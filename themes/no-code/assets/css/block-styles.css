@@ -1,0 +1,8 @@
+/* Style for core WP blocks*/
+
+/* Adding icon to right of button */
+
+.wp-block-button .wp-block-button.is-style-icon .wp-block-button__link::after {
+    content: '>';
+    margin-left: 0.5rem;
+}
