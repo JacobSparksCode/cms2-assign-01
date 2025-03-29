@@ -33,7 +33,7 @@ body {
 
 /* Makes buttons stand out more by giving a shadow */
 button{
-	filter: drop-shadow(0,0,0, 0.75 black);
+	filter: drop-shadow(0,0,0, 0.75rem black);
 }
 
 /* Disables underline for links */
@@ -60,3 +60,23 @@ a :hover{
 img {
 	border-radius: 1rem;
 }
+
+
+/* Rounding to images */
+.attachment-woocommerce_thumbnail, .size-woocommerce_thumbnail{
+    border-radius: 1rem;
+}
+/* Labels for products text color black */
+.wp-block-post-terms__prefix {
+    color: black;
+}
+
+/* Rounding to buttons in cart */
+.wc-block-components-button, .wp-element-button, .wp-block-woocommerce-mini-cart-cart-button-block, .wc-block-mini-cart__footer-cart .outlined{
+	border-radius: 1rem;
+}
+/* Rounding to search
+.wp-block-search__input{
+	border-radius: 1rem;
+} */
+

@@ -7,6 +7,7 @@
 
 add_action( 'init', 'my_announcment_pt' );
 
+// * Creating new plugin for announcements
 function my_announcment_pt() {
 
    $labels = array(
@@ -47,6 +48,7 @@ function my_announcment_pt() {
 
    );
 
+//* Settings of plug in announcements
    $args = array(
 
       'labels'                => $labels,
