@@ -30,3 +30,33 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
 }
+
+/* Makes buttons stand out more by giving a shadow */
+button{
+	filter: drop-shadow(0,0,0, 0.75 black);
+}
+
+/* Disables underline for links */
+a{
+	text-decoration: none;
+	transition: 200ms ease-in-out;
+}
+:root :where(.wp-block-navigation a:where(:not(.wp-element-button))){
+	text-decoration: none;
+}
+
+/* Gives underline to links ONLY when hovered */
+a :hover{
+	text-decoration: underline;
+	transition: 200ms ease-in-out;
+}
+
+/* Changes the color of horizontal lines */
+.wp-block-separator, .has-alpha-channel-opacity{
+	color: #6f1712;
+}
+
+/* Add rounding to all images */
+img {
+	border-radius: 1rem;
+}
